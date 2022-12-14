@@ -7,3 +7,32 @@
 img {
 	max-width: 100%;
 }
+
+/*inizio menù*/
+header {
+    background-color:rgba(143, 230, 236, 0.699);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.row{
+    width: 1000px;
+    height: 40px;
+    background-color: rgba(247, 185, 30, 0.959);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 3px dashed black;
+}
+
+.debug [class^='col'] {
+	border: 3px dashed black;
+	padding: 5px 30px;
+}
+
+nav {
+    margin-top: 5PX;
+}
+
