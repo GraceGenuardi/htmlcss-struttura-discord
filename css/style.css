@@ -83,3 +83,27 @@ nav {
 }
 
 /*inizio terza sezione: due elementi affiancati*/
+.section-3{
+    background-color:rgb(182, 178, 178);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.box-4 {
+    background-color: rgb(240, 170, 179);
+    align-items: center;
+    width: 400px ;
+    height: 450px;
+    margin-top: 50px;
+    border: 3px dashed black;
+}
+
+.box-5 {
+    background-color: rgb(43, 116, 252);
+    align-items: center;
+    width: 700px ;
+    height: 450px;
+    margin-top: 50px;
+    border: 3px dashed black;
+}
