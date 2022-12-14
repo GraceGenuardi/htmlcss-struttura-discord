@@ -8,6 +8,10 @@ img {
 	max-width: 100%;
 }
 
+main {
+ padding: 30px;
+
+}
 /*inizio menù*/
 header {
     background-color:rgba(143, 230, 236, 0.699);
