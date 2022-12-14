@@ -36,7 +36,7 @@ nav {
     margin-top: 5PX;
 }
 
-/*inizio prima sezione*/
+/*inizio prima sezione: un elemento centrato*/
 
 .section-1{
     background-color: rgb(11, 11, 128);
@@ -54,3 +54,32 @@ nav {
     margin-top: 50px;
     border: 3px dashed black;
 }
+
+/*inizio seconda sezione: due elementi affiancati*/
+
+.section-2{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.box-2 {
+    background-color: rgb(43, 116, 252);
+    align-items: center;
+    width: 700px ;
+    height: 450px;
+    margin-top: 50px;
+    border: 3px dashed black;
+}
+
+.box-3 {
+    background-color: rgb(240, 170, 179);
+    align-items: center;
+    width: 400px ;
+    height: 450px;
+    margin-top: 50px;
+    border: 3px dashed black;
+}
+
+/*inizio terza sezione: due elementi affiancati*/
